@@ -1,0 +1,14 @@
+* {
+  font-family: "Georgia";
+}
+h1{
+    color: #f52936;
+}
+#login,#signup{
+    color: #ffffff;
+    background-color: #f52936;
+}
+.upvote{
+    color: wheat;
+    background-color: green;
+}
