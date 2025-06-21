@@ -1,14 +1,48 @@
 * {
   font-family: "Georgia";
 }
-h1{
-    color: #f52936;
+h1 {
+  color: #f52936;
 }
-#login,#signup{
-    color: #ffffff;
-    background-color: #f52936;
+#login,
+#signup {
+  color: #ffffff;
+  background-color: #f52936;
 }
-.upvote{
-    color: wheat;
-    background-color: green;
+.upvote {
+  color: wheat;
+  background-color: green;
 }
+
+/* descendant selector */
+.post a {
+  color: purple;
+  background-color: rgb(251, 251, 106);
+}
+
+nav ul li a {
+  color: #f52936;
+}
+
+p+h3{
+  text-decoration: underline;
+}
+
+.upvote+button{
+  color: wheat;
+  background-color: cornflowerblue ;
+}
+
+div>input{
+  background-color:aqua;
+}
+
+input[type="text"]{
+  color: #f52936;
+}
+input[type="password"]{
+  color: green;
+}
+/* input[type]{
+  background-color: ghostwhite;
+} */
