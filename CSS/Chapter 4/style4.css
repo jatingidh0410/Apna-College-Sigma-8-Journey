@@ -4,6 +4,7 @@
     background-color: yellow;
     border-radius: 50%;
     border: 2px solid black;
+    margin: 0 auto;
 }
 
 .eyes{
@@ -17,12 +18,13 @@
 }
 
 .mouth{
-    height: 30px;
-    width: 100px;
+    height: 50px;
+    width: 110px;
+    background-color: red;
     border: 2px solid black;
-    border-radius: 50%;
+    border-radius: 0px 0px 100px 100px;
     position: relative;
-    top: 30px;
-    left: 46px;
-    
+    top: 28px;
+    left: 42px;
+
 }
