@@ -1,0 +1,24 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+/* .btn-info{
+ background-color: pink;
+} */
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items:center;
+}
+/* .btn1{
+  background-color: green;
+  border-radius: 10px;
+  text-align: center;
+  margin: 2px;
+  padding: 5px 10px;
+}
+
+.btn1:hover{
+  box-shadow: 2px 2px 5px black;
+} */
