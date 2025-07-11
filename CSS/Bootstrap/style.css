@@ -5,11 +5,11 @@
  background-color: pink;
 } */
 
-.buttons{
+.buttons {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items:center;
+  align-items: center;
 }
 /* .btn1{
   background-color: green;
@@ -22,3 +22,28 @@
 .btn1:hover{
   box-shadow: 2px 2px 5px black;
 } */
+
+/* .group1{
+  height: 200px;
+  width: 300px;
+  border: 2px solid black;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  
+} */
+
+.group1 {
+  margin: 0px auto;
+  height: 100px;
+  width: 700px;
+  border: 2px solid black;
+  display: flex; /* Make it a flex container */
+  /* justify-content:center ; Center horizontally */
+  align-items: center; /* Center vertically */
+  /* gap: 10px; Optional: adds space between buttons */
+}
+
+.ad{
+  border-radius: 50%;
+}
