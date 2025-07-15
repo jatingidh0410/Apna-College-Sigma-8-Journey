@@ -44,6 +44,33 @@
   /* gap: 10px; Optional: adds space between buttons */
 }
 
-.ad{
+.ad {
   border-radius: 50%;
+}
+
+/* .navbar-nav{
+  border: 2px solid black;
+  display: flex;
+  justify-content: end;
+  margin-right:890px;
+} */
+
+.card {
+  display: inline-flex;
+  margin: 10px;
+  width: 18rem;
+  border-radius: 20px;
+}
+.sen1 {
+  height: 140px;
+  width: 260px;
+  border-radius: 20px;
+  align-self: center;
+  margin-top: 10px;
+}
+
+.an {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
